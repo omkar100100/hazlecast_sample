@@ -44,6 +44,6 @@ public class ClusterQuorum {
             System.out.println("Lock operation failed with expected QuorumException: " + expected.getMessage());
         }
 
-        Hazelcast.shutdownAll();
+        //Hazelcast.shutdownAll();
     }
 }
